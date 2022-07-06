@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator'
+make: Leaving directory '/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
