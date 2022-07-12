@@ -71,6 +71,9 @@
         "ranges": "cpp",
         "span": "cpp",
         "fstream": "cpp",
-        "cassert": "cpp"
+        "cassert": "cpp",
+        "any": "cpp",
+        "regex": "cpp",
+        "future": "cpp"
     }
 }

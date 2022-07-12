@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK
 
 CXX_INCLUDES = -I/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/app -I/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/PUBLIC -I/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/§{PROJECT_SOURCE_DIR}/Connectors -I/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/§{PROJECT_SOURCE_DIR}/dataGenerator -I/home/linuxbrew/.linuxbrew/Cellar/libpqxx/7.7.3/include
 
-CXX_FLAGS = 
+CXX_FLAGS = -g
 

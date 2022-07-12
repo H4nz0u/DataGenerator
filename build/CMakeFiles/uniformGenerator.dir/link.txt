@@ -1,2 +1,0 @@
-/usr/bin/ar qc libuniformGenerator.a 
-/usr/bin/ranlib libuniformGenerator.a

@@ -1,26 +1,33 @@
 #include "Connector.h"
-#include <fstream>  
-class CsvConnector: public Connector
+#include <fstream>
+class CsvConnector : public Connector
 {
-    public:
-        CsvConnector(){};
-        virtual void insert_data(std::list<std::vector<value>> data, std::string filepath){ 
-            std::ofstream file(filepath);
-            for(auto entry: data){
-                for (auto v : entry){
-                    try{
-                        file << std::get<int>(v) << ",";
-                    }catch (const std::bad_variant_access& ex){
-                        try{
-                            file << std::get<uint64_t>(v) << ",";
-                        }catch(const std::bad_variant_access& ex){
-                            file << std::get<float>(v) << ",";
-                        }
-                    }  
-                }
-                file.seekp((long)file.tellp() - 1);
-                file << std::endl;
+public:
+    CsvConnector(){};
+    /**
+     * @brief opens a file in append mode and writes the values seperated by a comma to a stringstream to save io options 
+     *        and then writes the stringstream to the file
+     * 
+     * @param data the data to be written to the file 
+     * @param filepath path to the file to be written
+     */
+    virtual void insert_data(std::list<std::vector<std::string>> data, std::string filepath)
+    {
+        std::ofstream file;
+        file.open(filepath, std::ios_base::app);
+        std::stringstream temp;
+        for (auto entry : data)
+        {
+            char *seperator = "";
+            
+            for (auto v : entry)
+            {
+                temp << seperator << v;
+                seperator = ",";
             }
-            file.close();
+            temp << "\n";
         }
+        file << temp.str();
+        file.close();
+    }
 };

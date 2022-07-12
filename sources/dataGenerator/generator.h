@@ -1,8 +1,11 @@
-#include <variant>
-typedef std::variant<int, float, uint64_t, std::string> value;
 class Generator{
     public:
         Generator(){};
         virtual ~Generator(){};
-        virtual value getRandom(int min, int max, bool deterministic = true) = 0;
+        /**
+         * @brief pure virtual function to work as a abstract class
+         * 
+         * @return std::string 
+         */
+        virtual std::string getRandom() = 0;
 };

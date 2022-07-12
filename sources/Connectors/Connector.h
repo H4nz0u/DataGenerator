@@ -6,7 +6,6 @@
 #include <iostream>
 
 //to get pqxx to work: brew install version 7+, make sure to expand the include path and make a symbolic link from {pqxx_path}/lib/libpqxx-7.7.so to /usr/lib/libpqxx-7.7.so
-typedef std::variant<int, float, uint64_t, std::string> value;
 class Connector
 {
 private:
@@ -16,6 +15,12 @@ private:
 public:
     Connector(){};
     ~Connector(){};
-    virtual void insert_data(std::list<std::vector<value>> data, std::string dbname) = 0;
+    /**
+     * @brief pure virtual function working as a template to guarantee all connectors have that function
+     * 
+     * @param data 
+     * @param locaion can be either a database table name or a filepath
+     */
+    virtual void insert_data(std::list<std::vector<std::string>> data, std::string locaion) = 0;
 };
 #endif

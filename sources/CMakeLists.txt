@@ -9,7 +9,7 @@ find_package(Boost REQUIRED COMPONENTS program_options)
 
 if(Boost_FOUND)
     add_executable(app main.cpp)
-
+    set(CMAKE_BUILD_TYPE Debug)
     #add necessary directories
     include_directories(app PUBLIC ${Boost_INCLUDE_DIRS}) 
     include_directories(§{PROJECT_SOURCE_DIR}/Connectors)

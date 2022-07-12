@@ -1,2 +1,0 @@
-/usr/bin/ar qc libpostgresConnector.a CMakeFiles/postgresConnector.dir/postgresConnector.cpp.o
-/usr/bin/ranlib libpostgresConnector.a

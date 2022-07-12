@@ -1,2 +1,0 @@
-/usr/bin/ar qc libgenerator.a 
-/usr/bin/ranlib libgenerator.a

@@ -909,7 +909,29 @@ CMakeFiles/app.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/formatInterpreter.h \
+ /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/manager.cpp \
+ /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/manager.h \
  /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/uniformGenerator.h \
  /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/stringGenerator.h \
- /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/stringGenerator.cpp
+ /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/stringGenerator.cpp \
+ /usr/include/c++/11/regex /usr/include/c++/11/bitset \
+ /usr/include/c++/11/stack /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/bits/stl_stack.h \
+ /usr/include/c++/11/bits/regex_constants.h \
+ /usr/include/c++/11/bits/regex_error.h \
+ /usr/include/c++/11/bits/regex_automaton.h \
+ /usr/include/c++/11/bits/regex_automaton.tcc \
+ /usr/include/c++/11/bits/regex_scanner.h \
+ /usr/include/c++/11/bits/regex_scanner.tcc \
+ /usr/include/c++/11/bits/regex_compiler.h \
+ /usr/include/c++/11/bits/regex_compiler.tcc \
+ /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
+ /usr/include/c++/11/bits/regex_executor.h \
+ /usr/include/c++/11/bits/regex_executor.tcc /usr/include/c++/11/thread \
+ /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/future \
+ /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/unique_lock.h \
+ /usr/include/c++/11/condition_variable /usr/include/c++/11/atomic \
+ /usr/include/c++/11/bits/atomic_futex.h

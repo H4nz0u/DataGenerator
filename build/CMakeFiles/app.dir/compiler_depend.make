@@ -1015,17 +1015,69 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/formatInterpreter.h \
+  /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/manager.cpp \
+  /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/manager.h \
   /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/uniformGenerator.h \
   /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/stringGenerator.h \
-  /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/stringGenerator.cpp
+  /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/stringGenerator.cpp \
+  /usr/include/c++/11/regex \
+  /usr/include/c++/11/bitset \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_stack.h \
+  /usr/include/c++/11/bits/regex_constants.h \
+  /usr/include/c++/11/bits/regex_error.h \
+  /usr/include/c++/11/bits/regex_automaton.h \
+  /usr/include/c++/11/bits/regex_automaton.tcc \
+  /usr/include/c++/11/bits/regex_scanner.h \
+  /usr/include/c++/11/bits/regex_scanner.tcc \
+  /usr/include/c++/11/bits/regex_compiler.h \
+  /usr/include/c++/11/bits/regex_compiler.tcc \
+  /usr/include/c++/11/bits/regex.h \
+  /usr/include/c++/11/bits/regex.tcc \
+  /usr/include/c++/11/bits/regex_executor.h \
+  /usr/include/c++/11/bits/regex_executor.tcc \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_futex.h
 
+
+/usr/include/c++/11/bits/unique_lock.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/usr/include/c++/11/bits/regex_compiler.tcc:
+
+/usr/include/c++/11/bits/regex_compiler.h:
+
+/usr/include/c++/11/bits/regex_automaton.tcc:
+
+/usr/include/c++/11/bits/regex_constants.h:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/stack:
+
+/usr/include/c++/11/bitset:
+
+/usr/include/c++/11/regex:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
 /usr/include/c++/11/fstream:
 
 /home/linuxbrew/.linuxbrew/Cellar/libpqxx/7.7.3/include/pqxx/internal/header-post.hxx:
+
+/usr/include/c++/11/bits/regex_automaton.h:
 
 /home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/stringGenerator.cpp:
 
@@ -1073,6 +1125,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 
 /home/linuxbrew/.linuxbrew/Cellar/libpqxx/7.7.3/include/pqxx/internal/ignore-deprecated-pre.hxx:
 
+/usr/include/c++/11/condition_variable:
+
 /usr/include/c++/11/optional:
 
 /home/linuxbrew/.linuxbrew/Cellar/libpqxx/7.7.3/include/pqxx/internal/conversions.hxx:
@@ -1082,6 +1136,10 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /home/linuxbrew/.linuxbrew/Cellar/libpqxx/7.7.3/include/pqxx/strconv.hxx:
 
 /home/linuxbrew/.linuxbrew/Cellar/libpqxx/7.7.3/include/pqxx/internal/libpq-forward.hxx:
+
+/usr/include/c++/11/atomic:
+
+/usr/include/c++/11/bits/regex_error.h:
 
 /home/linuxbrew/.linuxbrew/Cellar/libpqxx/7.7.3/include/pqxx/except.hxx:
 
@@ -1102,6 +1160,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/boost/program_options/detail/convert.hpp:
 
 /usr/include/boost/program_options/detail/cmdline.hpp:
+
+/usr/include/c++/11/bits/regex_executor.tcc:
 
 /usr/include/boost/program_options/positional_options.hpp:
 
@@ -1191,6 +1251,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 
 /usr/include/boost/mpl/aux_/advance_forward.hpp:
 
+/usr/include/c++/11/deque:
+
 /usr/include/boost/mpl/negate.hpp:
 
 /usr/include/boost/mpl/advance.hpp:
@@ -1210,6 +1272,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/boost/mpl/distance_fwd.hpp:
 
 /usr/include/boost/mpl/advance_fwd.hpp:
+
+/usr/include/c++/11/bits/regex.h:
 
 /home/linuxbrew/.linuxbrew/Cellar/libpqxx/7.7.3/include/pqxx/internal/stream_iterator.hxx:
 
@@ -1247,7 +1311,7 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 
 /usr/include/boost/mpl/aux_/push_front_impl.hpp:
 
-/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/formatInterpreter.h:
+/usr/include/c++/11/bits/regex_scanner.h:
 
 /usr/include/boost/mpl/push_front.hpp:
 
@@ -1270,6 +1334,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/boost/mpl/aux_/has_size.hpp:
 
 /usr/include/boost/mpl/fold.hpp:
+
+/usr/include/c++/11/future:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/not_equal_to.hpp:
 
@@ -1322,6 +1388,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/boost/mpl/list/aux_/item.hpp:
 
 /usr/include/boost/mpl/push_front_fwd.hpp:
+
+/usr/include/c++/11/bits/regex_executor.h:
 
 /usr/include/boost/mpl/list/aux_/push_front.hpp:
 
@@ -1565,6 +1633,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 
 /usr/include/boost/range/detail/safe_bool.hpp:
 
+/usr/include/c++/11/bits/regex.tcc:
+
 /usr/include/boost/iterator/iterator_adaptor.hpp:
 
 /usr/include/boost/range/reverse_iterator.hpp:
@@ -1572,6 +1642,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/boost/range/rbegin.hpp:
 
 /usr/include/boost/iterator/distance.hpp:
+
+/usr/include/c++/11/bits/std_mutex.h:
 
 /usr/include/boost/mpl/vector/aux_/include_preprocessed.hpp:
 
@@ -1588,6 +1660,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/boost/iterator/advance.hpp:
 
 /usr/include/boost/utility/identity_type.hpp:
+
+/usr/include/c++/11/bits/std_thread.h:
 
 /home/linuxbrew/.linuxbrew/Cellar/libpqxx/7.7.3/include/pqxx/errorhandler.hxx:
 
@@ -1727,6 +1801,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 
 /usr/include/string.h:
 
+/usr/include/c++/11/bits/atomic_futex.h:
+
 /usr/include/c++/11/cstring:
 
 /usr/include/boost/mpl/aux_/config/ctps.hpp:
@@ -1736,6 +1812,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/boost/type_index.hpp:
 
 /usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/usr/include/c++/11/bits/stl_stack.h:
 
 /usr/include/boost/type_traits/is_array.hpp:
 
@@ -1896,6 +1974,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/c++/11/clocale:
 
 /usr/include/boost/config/no_tr1/memory.hpp:
+
+/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/manager.h:
 
 /usr/include/c++/11/initializer_list:
 
@@ -2130,6 +2210,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/errno.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/c++/11/mutex:
 
 /usr/include/boost/program_options.hpp:
 
@@ -2537,6 +2619,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 
 /usr/include/boost/preprocessor/detail/auto_rec.hpp:
 
+/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/sources/dataGenerator/manager.cpp:
+
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
@@ -2596,6 +2680,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/boost/math/tools/config.hpp:
 
 /usr/include/boost/type_traits/is_union.hpp:
+
+/usr/include/c++/11/thread:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp:
 
@@ -2710,6 +2796,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/boost/core/no_exceptions_support.hpp:
 
 /usr/include/boost/range/iterator_range_core.hpp:
+
+/usr/include/c++/11/bits/regex_scanner.tcc:
 
 /usr/include/c++/11/bits/stream_iterator.h:
 
@@ -2946,6 +3034,8 @@ CMakeFiles/app.dir/main.cpp.o: /home/johannes/Desktop/Betriebssystembau/Komplexp
 /usr/include/boost/mpl/apply.hpp:
 
 /usr/include/boost/mpl/apply_wrap.hpp:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
 

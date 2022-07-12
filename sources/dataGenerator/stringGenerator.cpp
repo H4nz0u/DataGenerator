@@ -1,11 +1,11 @@
 #include "stringGenerator.h"
 
-value StringGenerator::getRandom(int min, int max, bool deterministic){
-    int length = std::get<int>(intGen.getRandom(min, max, deterministic));
+std::string StringGenerator::getRandom(){
+    int length = std::stoi(intGen.getRandom());
     std::string result;
     result.reserve(length);
     for(int i=0; i < length; i++){
-        result += charset[std::get<int>(intGen.getRandom(0, 63, deterministic))];
+        result += charset[std::stoi(lengthGen.getRandom())];
     }
     return result;
 }
