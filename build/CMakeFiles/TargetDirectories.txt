@@ -1,3 +1,0 @@
-/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/build/CMakeFiles/app.dir
-/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/build/CMakeFiles/edit_cache.dir
-/home/johannes/Desktop/Betriebssystembau/Komplexpraktikum/DataGenerator/build/CMakeFiles/rebuild_cache.dir
