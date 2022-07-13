@@ -59,11 +59,13 @@ public:
     {
         deterministic_generator.discard(deterministic_generator.state_size);
         D result = distribution(deterministic_generator);
+        std::string result_str = std::to_string(result);
         if (precision > -1)
         {
-            result = std::round(result * std::pow(10, precision)) / std::pow(10, precision);
+            result_str = std::to_string(std::round(result * std::pow(10, precision)) / std::pow(10, precision));
+            result_str.erase ( result_str.find_last_not_of('0') + 1, std::string::npos );
         }
-        return std::to_string(result);
+        return result_str;
     };
 };
 #endif

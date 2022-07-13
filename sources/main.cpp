@@ -71,7 +71,7 @@ namespace lib
 po::variables_map parseCommandLine(int argc, char *argv[])
 {
     po::options_description desc{"General Options"};
-    desc.add_options()("help,h", "produce help message")("output,o", po::value<std::string>(&output)->required(), "currently supported formats: postgresql or csv")("filename", po::value<std::string>(&filename), "the name of the file")("threads,t", po::value<int>(&threads)->default_value(1), "The amount of Threads to be used");
+    desc.add_options()("help,h", "produce help message")("output,o", po::value<std::string>(&output)->required(), "currently supported formats: postgresql or csv")("filename", po::value<std::string>(&filename), "the name of the file")("threads,t", po::value<int>(&threads)->default_value(1), "The amount of Threads to be used\nCAREFUL! Multiple Threads break the deterministic behaviour");
     po::options_description generation{"Generation Options"};
     generation.add_options()("type", po::value<std::string>(&type)->required(), "The type of data to be generated: \n\tstring\n\tint\n\tfloat\nformat")("min", po::value<float>(&min)->default_value(INT_MIN), "sets the min value of all numbers or the minimum length of the strings to be generated")("max", po::value<float>(&max)->default_value(INT_MAX), "sets the max value of all numbers or the maximum length of the strings to be generated")("amount_of_columns,nc", po::value<int>(&n_columns)->required(), "set the amount of columns")("amount_of_entries,ne", po::value<int>(&n_entries)->required(), "set the amount of entries")("seed,s", po::value<int>(&seed), "the seed the deterministic data generator should use")("format,f", po::value<std::string>(&format), "Specifies an individual format");
     po::options_description connection{"Connection Options"};
@@ -166,16 +166,19 @@ void generateRandomEntriesFormat(int temp_seed, std::string format)
 {
     Manager fi;
     std::list<std::vector<std::string>> temp = fi.generateEntry(format, n_entries / threads, temp_seed);
+    Connector * c;
+    std::string name;
     if (output == "postgresql")
     {
-        PostgresConnector pc(url);
-        pc.insert_data(temp, tablename);
+        c = new PostgresConnector(url);
+        name = tablename;
     }
     else
     {
-        CsvConnector csv;
-        csv.insert_data(temp, filename);
+        c = new CsvConnector;
+        name = filename;
     }
+    c->insert_data(temp, name);
 }
 /**
  * @brief Method that is handed over to the Thread to generate the entries from a given type string

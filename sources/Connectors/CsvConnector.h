@@ -18,12 +18,12 @@ public:
         std::stringstream temp;
         for (auto entry : data)
         {
-            char *seperator = "";
+            const char *seperator = std::string("").c_str();
             
             for (auto v : entry)
             {
                 temp << seperator << v;
-                seperator = ",";
+                seperator = std::string(",").c_str();
             }
             temp << "\n";
         }
